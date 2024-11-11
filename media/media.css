@@ -1,0 +1,116 @@
+@media (max-width: 1300px) {
+    .collection {
+        font-size: 4rem;
+    }
+
+    .season {
+        font-size: 1.5rem;
+    }
+
+    .hello {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .menu {
+        max-width: 100%;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .left {
+        min-width: 300px;
+        padding: 8px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .content img {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .news {
+        max-width: 100%;
+        padding: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .author, .links {
+        padding: 0.5rem;
+        font-size: 100%;
+    }
+
+    .vk {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .collection {
+        font-size: 2.5rem;
+    }
+
+    .season {
+        font-size: 1.2rem;
+    }
+
+    .hello {
+        padding: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left {
+        font-size: 1rem;
+        padding: 6px;
+    }
+
+    .content {
+        padding: 5px;
+    }
+
+    .footer {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .author, .links {
+        font-size: 90%;
+        padding: 0;
+        margin: 5px 0;
+    }
+
+    .news h1 {
+        font-size: 1.2rem;
+    }
+
+    .news p {
+        font-size: 1rem;
+    }
+}
